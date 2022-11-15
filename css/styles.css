@@ -1,6 +1,5 @@
 html{
-    text-align: center;
-    
+    text-align: center;    
 }
 .menu{
     position:fixed;
@@ -12,28 +11,47 @@ html{
     font-size: 16px; 
     font-family: arial,sans-serif; 
 }
+#gmail{
+    margin-right: -11px;
+}
+#pictures{
+    margin-right: 10px;
+}
 #avatar{
     width: 40px;
     border-radius: 50%;
-    margin-top: -12px;
-  
-    
+    margin-top: -12px; 
 }    
 #avatar:hover{
-    box-shadow: 0px 0px 0px 5px rgb(240, 240, 240),
-
+    box-shadow: 0px 0px 0px 5px rgb(240, 240, 240);
 }
-
-
-.boxmenu{
-
+#dots{
+    width:22px;
+    margin-top: -3px;
 }
-    padding-left: 1
-    px;
-    padding-right: 10px;
+a:link{
+    color: currentColor;
+    text-decoration: none;
+}
+a:link:hover{
+    text-decoration:underline;
+}
+#logo{   
+    width:340px;
    
-    gap: 10px 15px;
+   
+    }
+.boxlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 194px;
+    
 
+}
+
+  
 /*#logo{
 
 }
