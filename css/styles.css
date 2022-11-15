@@ -105,7 +105,7 @@ button:hover{
    grid-gap: 2rem;
    justify-content: center;
    /*display: flex;
-    flex-direction:row;*/
+    flex-direction:row;
     
     position: absolute;
     bottom: 10px;
@@ -115,4 +115,4 @@ button:hover{
 }
 .box{
 
-}
+}*/
