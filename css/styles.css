@@ -47,7 +47,7 @@ a:link:hover{
 
 #logo{   
     width:270px;   
-    }
+}
 .boxlogo{
     display: flex;
     flex-direction: column;
@@ -134,51 +134,86 @@ a:link:hover{
  font-size: 13px;  
  font-family:Arial, Helvetica, sans-serif;
  margin-top: 29px;
- margin-left: -10px;
-  
+ margin-left: -10px; 
 }
-.container{
+
+.country{
+    position: fixed;
+    top: auto;
+    bottom: 46px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 28px;
+    margin-left: -7px;
+    text-align: left;
+    background-color:rgb(242, 242, 242); 
+    border: 1px solid rgb(242, 242, 242);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(112, 117, 122)
+}
+.lowbar{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.container{  
+    height: 45px;
+    padding-right: 13px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin-left: -7px;
+    background-color:rgb(242, 242, 242);
+    border: 1px solid rgb(218, 220, 224);
+    position:relative;
+    font-size: 14px;  
+    font-family:Arial, Helvetica, sans-serif;
+}     
+
+#leftbar{
+    width: 460px;
+    height: 45px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    overflow: visible;
+    margin-left: 33px;
     background-color:rgb(242, 242, 242);
+    border: 0px solid rgb(218, 220, 224);
+    padding: 0px 10x;
+    gap: 1px 30px;
+
 }
-.box{
-    display: block;
-}
-
-
-
-
-    position:fixed;
-    bottom:18px;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-        gap: 1.8rem;
-    margin-top: 2px;    
-    font-size: 13px; 
-    font-family: arial,sans-serif;
-    display:flex;
-    gap: 20px;
-    width: 100%;
+#rightbar{
+    width: 480px;
+    height: 45px;
+    margin-right: 19px;
+    display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
-    justify-content:right
-   
-}
+    flex-direction: row;
+    justify-content:right;
+    align-items: center;
+    text-align: left;
+    overflow: visible;
+    background-color:rgb(242, 242, 242);
+    border: 0px solid rgb(218, 220, 224);
+    padding: 0px 10px;
+    gap: 1px 30px;
+
+}      
+
 .box{
-    justify-content:space-around;
-
+    color:rgb(112, 117, 122);
 }
-
-
-
-
-
-
-
-
-margin-top: -1px;
-margin-left: 5px;
-border: 1px solid
+#lowbarlink:link{
+    color:currentColor;
+    text-decoration:underline;
+}
+#lowbarlink:visited{
+    color:currentColor;
+    text-decoration:underline;
+}       
