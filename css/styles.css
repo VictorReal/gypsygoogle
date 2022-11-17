@@ -209,14 +209,11 @@ a:link:hover{
 .box{
     color:rgb(112, 117, 122);
 }
-#lowbarlink:link{
+.lowbarlink:link{
     color:currentColor;
-    text-decoration:underline;
+    text-decoration:none;
 }
-#lowbarlink:visited{
+.lowbarlink:visited{
     color:currentColor;
     text-decoration:underline;
 }       
-#icong{
-    border-radius: 50px;
-}
