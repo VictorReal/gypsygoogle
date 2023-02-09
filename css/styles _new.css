@@ -64,14 +64,15 @@ body{
    justify-content: center;
    margin-top: 22px;
    border-radius: 25px;
-   border: 1px solid rgb(225, 225, 226);
+   border: 1px solid #e1e1e2;
 }
 .search-bar:hover{
-    border-color: rgb(225, 225, 226);
-    box-shadow: 0px 0px 5px 1px rgb(225, 225, 226);
+    border-color: #e1e1e2;;
+    box-shadow: 0px 0px 5px 1px #e1e1e2;;
 }
 
 /*search buttons*/
+
 #glass{
     width:18px;
     margin-top: -3px;
@@ -111,26 +112,25 @@ body{
 }
 .search-buttons{
     font-size: 14px;
-    border: 0px solid rgb(248, 249, 250); 
+    border: 0px solid #f8f9fa; 
     border-radius: 5px;
-    background-color: rgb(248, 249, 250);
+    background-color: #f8f9fa;
     padding: 9px 16px;
     margin-top: 28px;
 }
 .search-buttons:hover{
-    box-shadow: 0px 0px 1px 1px  rgb(218, 220, 224);
+    box-shadow: 0px 0px 1px 1px  #dadce0;
 }
 #happy-link:link{
-        color:currentColor;
+        color: #000000;
         text-decoration: none;
 }
 #happy-link:visited{
-        color:currentColor;
+        color: #000000;
         text-decoration: none;
 }
 #langchange{
  font-size: 13px;  
- 
  margin-top: 29px;
  margin-left: -10px; 
 }
@@ -143,24 +143,25 @@ body{
     justify-content: flex-start;
     padding: 15px 2vw;
     text-align: left;
-    background-color:rgb(242, 242, 242); 
-    border: 1px solid rgb(242, 242, 242);
+    background-color:#f2f2f2; 
+    border: 1px solid #f2f2f2;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
-    color:rgb(112, 117, 122)
+    color:#70757A
 }
 .lowbar{
     position: fixed;
     flex-wrap: wrap;
     bottom: 0px;
     width: 100%;
-    background-color:rgb(242, 242, 242);
+    background-color:#f2f2f2;
+    color:#70757A;
 }
 .lowbar_line_two{  
     height: 45px;
     display: flex;
     justify-content:space-between;
-    border: 1px solid rgb(218, 220, 224);
+    border: 1px solid #dadce0;
     position:relative;
     padding: 0px 1.5vw;
     font-size: 14px;  
@@ -176,15 +177,12 @@ body{
     overflow: visible;
     padding: 0px 10px;
     gap: 1px 30px;
-}      
-.box{
-    color:rgb(112, 117, 122);
-}
+} 
 .lowbarlink:link{
-    color:currentColor;
+    color:#70757A;
     text-decoration:none;
 }
 .lowbarlink:visited{
-    color:currentColor;
+    color:#70757A;
     text-decoration:underline;
 }       
