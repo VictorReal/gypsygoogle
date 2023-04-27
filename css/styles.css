@@ -186,3 +186,51 @@ body{
     color:#70757A;
     text-decoration:underline;
 }
+
+
+
+
+@media (max-width: 750px){
+    .background {
+      animation: moveBackground 60s linear infinite;
+    }
+    main { 
+      height: 55vw;
+      width: 90vw;
+      gap: 1rem; 
+    } 
+    #git_btn, #cv_btn, #prj_btn, #start-animation-btn{
+      width: 22vw;
+    }
+    @keyframes moveBackground {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 0 500%;
+      }
+    }
+  }
+  @media (min-width: 751px) and (max-width: 900px) {
+    @keyframes moveBackground {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 0 200%;
+      }
+    }
+  }
+  @media (min-width: 3500px) {
+    main { 
+      height: 17vh;
+      width: 40vw; 
+      font-size: 48px;
+      padding: 100px 0px;
+    } 
+    main, #part1, #part2, #git_btn, #cv_btn, #prj_btn, #start-animation-btn{
+      font-size: 48px;
+      padding-bottom: 80px;
+    }
+  }
+  
