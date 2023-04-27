@@ -1,72 +1,78 @@
-html{
-    text-align: center; 
+body{  
+    height: 97vh; 
     font-size: 16px; 
-    font-family:Arial, Helvetica, sans-serif;   
+    font-family:Arial, Helvetica, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
 }
 .menu{
+    display: flex;
     justify-content: flex-end;
-    display:flex;
-    flex-wrap: wrap;
-    gap: 1.8rem;   
+    gap: 1rem;   
     font-size: 13px; 
-    font-family: arial,sans-serif; 
+    font-family: arial,sans-serif;
+    margin-right: 1vw;
 }
-#gmail{
-   gap: 1.2rem;
-}
-#pictures{
-    margin-right: 1px;
-}
-#avatar{
-    width: 32px;
-    border-radius: 50%;
-    margin-top: -9px; 
-}    
-#avatar:hover{
-    box-shadow: 0px 0px 0px 5px rgb(240, 240, 240);
-}
-#dots-img{
-    width:18px;
-    margin-top: 11px;
-    margin-right: -6px;
-}
-#dots:hover{
-    background-color:  rgb(240, 240, 240);
-    padding: 0px 16px 7px 10px;
-    margin: 0px -16px -7px -10px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 1px 5px  rgb(240, 240, 240);
-}
-a:link{
-    color: currentColor;
-    text-decoration: none;
-}
-a:link:hover{
-    text-decoration:underline;
-}
-#searchlogo{
+/*menu buttons*/
+#gmail, #pictures, #dots-img{
+    padding-top: 1.5vh;  
+ }
+ #avatar{
+    margin-top: 1px;
+     width: 32px;
+     border-radius: 50%;
+ }    
+ #avatar:hover{
+     box-shadow: 0px 0px 0px 5px rgb(240, 240, 240);
+ }
+ #dots-img{
+     width:18px;
+     margin: 11px 10px 0px 15px;
+ }
+ #dots:hover{
+     background-color:  rgb(240, 240, 240);
+     padding: 0px 16px 7px 10px;
+     margin: 0px -16px -7px -10px;
+     border-radius: 50%;
+     box-shadow: 0px 0px 1px 5px  rgb(240, 240, 240);
+ }
+ a:link{
+     color: currentColor;
+     text-decoration: none;
+ }
+ a:link:hover{
+     text-decoration:underline;
+ }
+
+ .searchlogo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 12vw;
 }
-#logo{   
-    width:270px;   
+ #logo{   
+    width:270px;
 }
 .search-bar{
    width: 580px; 
-   height: 44px;
    display: flex;
    flex-direction:row;
    align-items: center;
    justify-content: center;
-   margin:auto; 
-   margin-top: 27px;
+   margin-top: 22px;
    border-radius: 25px;
-   border: 1px solid rgb(225, 225, 226);
+   border: 1px solid #e1e1e2;
 }
 .search-bar:hover{
-    border-color: rgb(225, 225, 226);
-    box-shadow: 0px 0px 5px 1px rgb(225, 225, 226);
+    border-color: #e1e1e2;;
+    box-shadow: 0px 0px 5px 1px #e1e1e2;;
 }
+
+/*search buttons*/
+
 #glass{
     width:18px;
     margin-top: -3px;
@@ -89,44 +95,42 @@ a:link:hover{
 #microphone{
     width: 15px;
     height: 20px;
-    margin-top: -1px;
     margin-left: 24px;
-    margin-right: 3px;
     cursor: pointer;
 }
 #camera{
-    width: 20px;
-    margin-top: -2px;
+    width: 25px;
     margin-left: 20px;
     margin-right: -25px;
     cursor: pointer;
 }
-
+/*buttons under search*/
+.buttons_flex{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;  
+}
 .search-buttons{
     font-size: 14px;
-    color: rgb(32, 33, 36)C;;
-    border: 0px solid rgb(248, 249, 250); 
+    border: 0px solid #f8f9fa; 
     border-radius: 5px;
-    background-color: rgb(248, 249, 250);
-    padding: 10px 16px;
+    background-color: #f8f9fa;
+    padding: 9px 16px;
     margin-top: 28px;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 .search-buttons:hover{
-    box-shadow: 0px 0px 1px 1px  rgb(218, 220, 224);
+    box-shadow: 0px 0px 1px 1px  #dadce0;
 }
 #happy-link:link{
-        color:currentColor;
+        color: #000000;
         text-decoration: none;
 }
 #happy-link:visited{
-        color:currentColor;
+        color: #000000;
         text-decoration: none;
 }
 #langchange{
  font-size: 13px;  
- 
  margin-top: 29px;
  margin-left: -10px; 
 }
@@ -137,76 +141,48 @@ a:link:hover{
     bottom: 46px;
     width: 100%;
     justify-content: flex-start;
-    padding: 15px;
+    padding: 15px 2vw;
     text-align: left;
-    background-color:rgb(242, 242, 242); 
-    border: 1px solid rgb(242, 242, 242);
+    background-color:#f2f2f2; 
+    border: 1px solid #f2f2f2;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
-    color:rgb(112, 117, 122)
+    color:#70757A
 }
 .lowbar{
     position: fixed;
+    flex-wrap: wrap;
     bottom: 0px;
     width: 100%;
+    background-color:#f2f2f2;
+    color:#70757A;
 }
 .lowbar_line_two{  
     height: 45px;
-    padding-right: 13px;
     display: flex;
-    flex-wrap: nowrap;
     justify-content:space-between;
-    margin-left: -7px;
-    background-color:rgb(242, 242, 242);
-    border: 1px solid rgb(218, 220, 224);
+    border: 1px solid #dadce0;
     position:relative;
+    padding: 0px 1.5vw;
     font-size: 14px;  
     font-family:Arial, Helvetica, sans-serif;
 }     
-
-#leftbar{
-    width: 460px;
+#leftbar, #rightbar{
     height: 45px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: left;
-    align-items: center;
+    align-items:center;
     text-align: left;
     overflow: visible;
-    margin-left: 33px;
-    background-color:rgb(242, 242, 242);
-    border: 0px solid rgb(218, 220, 224);
-    padding: 0px 10x;
-    gap: 1px 30px;
-
-}
-#rightbar{
-    width: 480px;
-    height: 45px;
-    margin-right: 19px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:right;
-    align-items: center;
-    text-align: left;
-    overflow: visible;
-    background-color:rgb(242, 242, 242);
-    border: 0px solid rgb(218, 220, 224);
     padding: 0px 10px;
     gap: 1px 30px;
-
-}      
-
-.box{
-    color:rgb(112, 117, 122);
-}
+} 
 .lowbarlink:link{
-    color:currentColor;
+    color:#70757A;
     text-decoration:none;
 }
 .lowbarlink:visited{
-    color:currentColor;
+    color:#70757A;
     text-decoration:underline;
 }       
