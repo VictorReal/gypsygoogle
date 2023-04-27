@@ -191,93 +191,36 @@ body{
 
 
 @media (max-width: 750px){
-    body{  
+    body{ 
         background-color: rgb(178, 206, 178);
-    }
-
-    /*menu buttons*/
-     #avatar{
-        margin-top: 1px;
-         width: 32px;
-         border-radius: 50%;
-     }    
-     #avatar:hover{
-         box-shadow: 0px 0px 0px 5px rgb(240, 240, 240);
-     }
-     #dots-img{
-         width:18px;
-         margin: 11px 10px 0px 15px;
-     
-     }
-
-    
+        height: 90vh;
+    }   
      .searchlogo{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: center;
-        margin-bottom: 12vw;
-    }
-    #input-line{
-        width: 1px;
-
-    }
+        margin-bottom: 45vh;
+    }    
      #logo{   
-        width:200px;
+        width:180px;
     }
     .search-bar{
-       width: 580px; 
-       display: flex;
-       flex-direction:row;
-       align-items: center;
-       justify-content: center;
-       margin-top: 22px;
-       border-radius: 25px;
-       border: 1px solid #e1e1e2;
+       width: 95vw; 
     }
-    .search-bar:hover{
-        border-color: #e1e1e2;;
-        box-shadow: 0px 0px 5px 1px #e1e1e2;;
-    }
-    
-    /*search buttons*/
-    
     #glass{
-        width:18px;
-        margin-top: -3px;
-        margin-left: -28px;
-        padding-right: 22px;
+        margin: 0px;
     }
     #input-line{
-        border-color: transparent;
-        padding: 13px 117px 12px 117px;
-        margin-left: 10px;  
+        width: 220px;
+        padding: 13px 0px 12px;
+        margin-right: 10px;     
     }
-    #keyboard{
-        width: 20px;
-        height: 11px;
-        margin-top: -1px;
-        margin-right: -2px;
-        cursor: pointer;
-        border-radius: 1px;
+    #keyboard, #microphone, #camera{
+        margin-left: 7px;
+        margin-right: 0px;
     }
-    #microphone{
-        width: 15px;
-        height: 20px;
-        margin-left: 24px;
-        cursor: pointer;
-    }
-    #camera{
-        width: 25px;
-        margin-left: 20px;
-        margin-right: -25px;
-        cursor: pointer;
-    }
-    /*buttons under search*/
-    .buttons_flex{
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;  
+
+    
+
+
+
     }
     .search-buttons{
         font-size: 14px;
