@@ -16,7 +16,7 @@ body{
     margin-right: 1vw;
 }
 /*menu buttons*/
-#gmail, #pictures, #dots-img{
+#gmail, #pictures, #dots{
     padding-top: 1.5vh;  
  }
  #avatar{
@@ -28,15 +28,19 @@ body{
      box-shadow: 0px 0px 0px 5px rgb(240, 240, 240);
  }
  #dots-img{
-     width:18px;
-     margin: 11px 10px 0px 15px;
+     width:19px;
+ }
+ #dots {
+    margin-top: 11px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 10px 10px 7px;
  }
  #dots:hover{
      background-color:  rgb(240, 240, 240);
-     padding: 0px 16px 7px 10px;
-     margin: 0px -16px -7px -10px;
-     border-radius: 50%;
-     box-shadow: 0px 0px 1px 5px  rgb(240, 240, 240);
+     border: 1px solid transparent;
+     border-radius: 50px;
+     box-shadow: 0px 0px 0px 1px  rgb(240, 240, 240);
  }
  a:link{
      color: currentColor;
@@ -205,7 +209,7 @@ body{
         width:150px;
     }
     .search-bar{
-       width: 95vw; 
+       width: 390px; 
     }
     #glass{
         margin: 0px;
